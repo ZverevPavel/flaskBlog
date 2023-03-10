@@ -7,12 +7,10 @@
             Base
         {% endblock %}
     </title>
+    {% block css %}{% endblock %}
 </head>
 <body>
-    <div>
-        {% block body %}
-            Hello base!
-        {% endblock %}
-    </div>
+    {% block body %}{% endblock %}
+    {% block js %}{% endblock %}
 </body>
 </html>
