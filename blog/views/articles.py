@@ -1,6 +1,5 @@
 from flask import Blueprint, render_template
 from werkzeug.exceptions import NotFound
-from blog.views.users import USERS
 
 articles_app = Blueprint("articles_app", __name__)
 
